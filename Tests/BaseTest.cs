@@ -8,7 +8,7 @@ using WebDriverManager.DriverConfigs.Impl;
 using WebDriverManager;
 using OpenQA.Selenium;
 
-namespace PortalPagosTestAutomation.Tests
+namespace SeleniumDotnet.Tests
 {
     public class BaseTest
     {

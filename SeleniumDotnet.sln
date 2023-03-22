@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalPagosTestAutomation", "PortalPagosTestAutomation.csproj", "{492289D2-C979-4AF1-8676-96C5376948E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumDotnet", "SeleniumDotnet.csproj", "{B239742C-F9FE-4CA0-9425-9AC4B7D78625}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{492289D2-C979-4AF1-8676-96C5376948E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{492289D2-C979-4AF1-8676-96C5376948E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{492289D2-C979-4AF1-8676-96C5376948E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{492289D2-C979-4AF1-8676-96C5376948E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B239742C-F9FE-4CA0-9425-9AC4B7D78625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B239742C-F9FE-4CA0-9425-9AC4B7D78625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B239742C-F9FE-4CA0-9425-9AC4B7D78625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B239742C-F9FE-4CA0-9425-9AC4B7D78625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DDE2A9F6-4E5A-4649-889E-A4FFE7780189}
+		SolutionGuid = {3F7626FE-C7E9-43B2-B664-E18F67F38403}
 	EndGlobalSection
 EndGlobal

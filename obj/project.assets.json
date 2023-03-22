@@ -1846,19 +1846,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Horacio\\.nuget\\packages\\": {}
+    "C:\\Users\\horac\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Horacio\\Workspace\\NET\\PortalPagosTestAutomation\\PortalPagosTestAutomation.csproj",
-      "projectName": "PortalPagosTestAutomation",
-      "projectPath": "C:\\Users\\Horacio\\Workspace\\NET\\PortalPagosTestAutomation\\PortalPagosTestAutomation.csproj",
-      "packagesPath": "C:\\Users\\Horacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Horacio\\Workspace\\NET\\PortalPagosTestAutomation\\obj\\",
+      "projectUniqueName": "C:\\Users\\horac\\Workspace\\QA\\Web\\NET\\selenium-dotnet\\SeleniumDotnet.csproj",
+      "projectName": "SeleniumDotnet",
+      "projectPath": "C:\\Users\\horac\\Workspace\\QA\\Web\\NET\\selenium-dotnet\\SeleniumDotnet.csproj",
+      "packagesPath": "C:\\Users\\horac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\horac\\Workspace\\QA\\Web\\NET\\selenium-dotnet\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Horacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\horac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

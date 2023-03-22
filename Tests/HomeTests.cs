@@ -1,7 +1,7 @@
 ﻿using AngleSharp.Text;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using PortalPagosTestAutomation.Sources.Pages;
+using SeleniumDotnet.Sources.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 
-namespace PortalPagosTestAutomation.Tests
+namespace SeleniumDotnet.Tests
 {
     public class HomeTests : BaseTest
     {

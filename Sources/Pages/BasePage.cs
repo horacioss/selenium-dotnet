@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PortalPagosTestAutomation.Sources.Pages
+namespace SeleniumDotnet.Sources.Pages
 {
     public class BasePage
     {
