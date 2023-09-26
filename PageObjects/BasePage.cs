@@ -73,7 +73,7 @@ namespace BddProject.PageObjects
             }
             catch (WebDriverTimeoutException)
             {
-                Console.WriteLine($"Element with locator '{locator}' is not clickable.");
+                throw new Exception($"Element with locator '{locator}' was not found or is not clickable.");
             }
         }
 
@@ -87,7 +87,7 @@ namespace BddProject.PageObjects
             }
             catch (WebDriverTimeoutException)
             {
-                Console.WriteLine($"Element with locator '{locator}' is not clickable.");
+                throw new Exception($"Element with locator '{locator}' was not found or is not clickable.");
             }
         }
 

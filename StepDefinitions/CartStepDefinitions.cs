@@ -22,19 +22,22 @@ namespace BddProject.StepDefinitions
             LoginPage loginPage = new(_driver);
             loginPage.LoginWithCredentials("standard_user", "secret_sauce");
             loginPage.GetPageUrl().Should().Contain("inventory.html");
-            ProductsListPage productsListPage = new ProductsListPage(_driver);
         }
 
         [When(@"I add the two products to the cart with the following details")]
         public void WhenIAddTheTwoProductsToTheCartWithTheFollowingDetails(Table table)
         {
-            throw new PendingStepException(); 
+            ProductsListPage productsListPage = new ProductsListPage(_driver);
+            productsListPage.AddProductToCart(table.Rows[0]["ProductName"]);
+            productsListPage.AddProductToCart(table.Rows[1]["ProductName"]);
+            productsListPage.GoToCart();
         }
 
         [Then(@"I should see the cart page with the two products")]
         public void ThenIShouldSeeTheCartPageWithTheTwoProducts()
         {
-            throw new PendingStepException();
+            CartPage cartPage = new CartPage(_driver);
+            cartPage.GetCartItemsName().Count.Should().Be(2);
         }
 
     }

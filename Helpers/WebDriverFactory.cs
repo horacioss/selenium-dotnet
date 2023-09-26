@@ -17,7 +17,7 @@ namespace BddProject.Helpers
         public static IWebDriver CreateWebDriver()
         {
 
-            string browser = Environment.GetEnvironmentVariable("BROWSER_TYPE") ?? "Chrome";
+            string browser = Environment.GetEnvironmentVariable("BROWSER_TYPE") ?? "Edge";
 
             if (!Enum.TryParse(browser, out BrowserType browserType))
             {
@@ -31,7 +31,7 @@ namespace BddProject.Helpers
                     string chromeDriverPath = @" C:\Users\horac\chromedriver\win64-117.0.5938.92\chromedriver-win64";
                     ChromeOptions chromeOptions = new()
                     {
-                        BinaryLocation = @"C:\Users\\horac\chrome\win64-117.0.5938.92\chrome-win64\chrome.exe",
+                        BinaryLocation = @"C:\Users\horac\chrome\win64-117.0.5938.92\chrome-win64\chrome.exe",
                     };
                     driver = new ChromeDriver(chromeDriverPath, chromeOptions);
                     return driver;

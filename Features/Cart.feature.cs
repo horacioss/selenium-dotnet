@@ -106,14 +106,11 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("open the products list page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                            "ProductName",
-                            "Quantity"});
+                            "ProductName"});
                 table1.AddRow(new string[] {
-                            "Sauce Labs Backpack",
-                            "1"});
+                            "Sauce Labs Backpack"});
                 table1.AddRow(new string[] {
-                            "Sauce Labs Fleece Jacket",
-                            "1"});
+                            "Sauce Labs Fleece Jacket"});
 #line 9
  testRunner.When("I add the two products to the cart with the following details", ((string)(null)), table1, "When ");
 #line hidden
