@@ -9,7 +9,7 @@ namespace BddProject.PageObjects
 {
     public class ProductsListPage : BasePage
     {
-        public ProductsListPage() : base(driver)
+        public ProductsListPage(IWebDriver driver) : base(driver)
         {
         }
 

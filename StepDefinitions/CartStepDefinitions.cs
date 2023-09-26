@@ -28,13 +28,13 @@ namespace BddProject.StepDefinitions
         [When(@"I add the two products to the cart with the following details")]
         public void WhenIAddTheTwoProductsToTheCartWithTheFollowingDetails(Table table)
         {
-           products 
+            throw new PendingStepException(); 
         }
 
         [Then(@"I should see the cart page with the two products")]
         public void ThenIShouldSeeTheCartPageWithTheTwoProducts()
         {
-            // throw new PendingStepException();
+            throw new PendingStepException();
         }
 
     }
